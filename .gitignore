@@ -1,0 +1,17 @@
+# 本地环境（含 API Key）
+.env
+*.env
+
+# 本地录屏辅助脚本（含本机绝对路径，不入库）
+demo_record.ps1
+pin_window.ps1
+make_demo_script.py
+make_pin_script.py
+render_demo.py
+
+# 临时产物
+__pycache__/
+*.pyc
+_shoot*.mjs
+_frames/
+*.mkv
